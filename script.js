@@ -12,11 +12,6 @@ app.$container = $('.container');
 
 // init
 app.init = () => {
-    console.log('test');
-    // app.filmTitle(); 
-    // app.randomFilm();
-    // app.displayMovie();
-
     // on click, generate random movie & clear old request 
     $('.generate').on('click', function(event) {
         event.preventDefault();
