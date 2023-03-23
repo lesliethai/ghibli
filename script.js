@@ -3,7 +3,7 @@ const app = {};
 
 
 // selectors & url
-const movieUrl = 'https://ghibliapi.herokuapp.com/films';
+const movieUrl = 'https://ghibliapi-hcq6.onrender.com/films';
 app.$title = $('.mainTitle');
 app.$altTitle = $('.altTitle');
 app.$description = $('.description');
