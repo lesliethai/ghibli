@@ -33,32 +33,11 @@ h1 {
     margin: 0; 
     padding: 20px; 
 }
-nav {
-    background-color: rgb(35, 48, 71); 
-    color: #fff; 
-}
-nav .wrapper,
-ul {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-}
-li {
-    list-style: none; 
-}
+
 a {
     color: inherit; 
     font-size: 1.6rem;
     text-decoration: none;
-}
-nav a {
-    padding: 30px;
-    transition: 400ms;
-}
-nav a:hover,
-nav a:focus {
-    background-color: #fff; 
-    color: rgb(35, 48, 71); 
 }
 
 /* content styling */
@@ -159,10 +138,6 @@ footer {
         margin-top: 20px;
         flex-wrap: wrap; 
         margin-bottom: 20px; 
-    }
-    nav .wrapper {
-        flex-wrap: wrap; 
-        justify-content: center;
     }
     a {
         padding: 20px; 
